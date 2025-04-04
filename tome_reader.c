@@ -203,7 +203,7 @@ int main(int ac, char **av)
         
 	free(line);
 	
-	printf("if u can't handel the truth just click anyletter don't risck it!! if u are able to finish press (y) and press it (enter) to confirm!!:");
+	printf("if u can't handel the truth just click anyletter don't risck it!! if u are able to finish press (y) and press (enter) to confirm!!:");
         scanf("%c%c",&continu,&confirm);
 
     }while(continu == 'y' && confirm =='\n');
